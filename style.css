@@ -32,7 +32,7 @@
   }
   
   textarea {
-    width: 350px;
+    width: 364px;
     height: 220px;
     background: #303030; /* Darker gray for textarea */
     color: #ffffff; /* Light gray for text */
@@ -59,8 +59,8 @@ label {
     width: 360px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 6px;
+    justify-content: center;
+    gap: 10px;
     margin-bottom: 20px;
   }
   
@@ -82,7 +82,7 @@ label {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 165px;
+    width: 180px;
     margin: 5px;
     height: 40px;
   }
@@ -109,6 +109,7 @@ label {
     border-radius: 35px;
     cursor: pointer;
     appearance: none;
+   
   }
   
   .rate-control {
@@ -116,11 +117,11 @@ label {
     align-items: center;
     margin-left: -6px;
     color: #d0d0d0; /* Light gray for rate control text */
-  
+    gap: 2px;
   }
   
   #rate {
-    width: 80px;
+    width: 75px;
     cursor: pointer;
   }
   
