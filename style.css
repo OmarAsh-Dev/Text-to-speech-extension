@@ -8,15 +8,14 @@
  
   
   .container {
-    min-height: 490px;
-    min-width: 400px;
+    height: 490px;
+    width: 400px;
     background: #282828; /* Dark gray background */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%; /* Adjust the width as needed */
-    height: calc(width * 1.5); /* Aspect ratio of 3:2 */
+   
   }
   
   .container h1 {
@@ -50,9 +49,14 @@
     font-size: 16px;
     color: #808080; /* Lighter gray for placeholder */
   }
-  
+
+label {
+    cursor: default;
+    font-size: 13.5px;
+    margin-left: 2px;
+}
   .row {
-    width: 350px;
+    width: 360px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,11 +101,11 @@
     background: #303030; /* Darker gray for select */
     color: #4f9af0; /* Light gray for text */
     height: 45px;
-    font-size: 11.2px;
+    font-size: 11.5px;
     font-weight: 500;
     border: 0;
     outline: 0;
-    padding: 0 10px;
+    padding: 10px;
     border-radius: 35px;
     cursor: pointer;
     appearance: none;
@@ -110,18 +114,17 @@
   .rate-control {
     display: flex;
     align-items: center;
-    margin-left: -16px;
+    margin-left: -6px;
     color: #d0d0d0; /* Light gray for rate control text */
-   
-    transform: scaleX(0.8);
+  
   }
   
   #rate {
-    width: 100px;
+    width: 80px;
     cursor: pointer;
   }
   
   #rate-value {
-    font-size: 16px;
+    font-size: 12px;
   }
   
