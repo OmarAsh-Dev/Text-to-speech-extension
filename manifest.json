@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Text to Speech Converter",
+  "version": "1.0",
+  "description": "A simple text-to-speech converter using the Web Speech API.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/play.png",
+      "48": "images/play.png",
+      "128": "images/play.png"
+    },
+    "default_popup_width": 400,
+    "default_popup_height": 500
+  },
+  "icons": {
+    "16": "images/play.png",
+    "48": "images/play.png",
+    "128": "images/play.png"
+  },
+  "permissions": []
+}

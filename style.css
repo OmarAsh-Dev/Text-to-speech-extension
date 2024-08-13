@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #d0d0d0; /* Light gray for text */
+  }
+ 
+  
+  .container {
+    min-height: 550px;
+    min-width: 560px;
+    background: #282828; /* Dark gray background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%; /* Adjust the width as needed */
+    height: calc(width * 1.5); /* Aspect ratio of 3:2 */
+  }
+  
+  .container h1 {
+    color: #ffffff; /* White for heading */
+    font-size: 45px;
+    margin-bottom: 40px;
+    font-weight: 500;
+  }
+  
+  .container h1 span {
+    color: #4f9af0; /* Accent color remains the same */
+    font-size: 45;
+  }
+  
+  textarea {
+    width: 510px;
+    height: 250px;
+    background: #303030; /* Darker gray for textarea */
+    color: #ffffff; /* Light gray for text */
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 20px;
+    resize: none;
+    margin-bottom: 30px;
+  }
+  
+  textarea::placeholder {
+    font-size: 16px;
+    color: #808080; /* Lighter gray for placeholder */
+  }
+  
+  .row {
+    width: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  
+  button {
+    background: #303030; /* Darker gray for button */
+    color: #4f9af0; /* White for button text */
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    padding: 10px 30px;
+    border-radius: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 245px;
+    margin: 5px;
+    height: 40px;
+  }
+  
+  button:hover {
+    background: #282828; /* Darker gray on hover */
+  }
+  
+  button img {
+    width: 16px;
+    margin-right: 10px;
+  }
+  
+  select {
+    flex: 1;
+    background: #303030; /* Darker gray for select */
+    color: #4f9af0; /* Light gray for text */
+    height: 45px;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 0 20px;
+    border-radius: 35px;
+    cursor: pointer;
+    appearance: none;
+    background-image: url(images/dropdown.png); /* Assuming dropdown image is suitable for dark theme */
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right 20px center;
+  }
+  
+  .rate-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #d0d0d0; /* Light gray for rate control text */
+  }
+  
+  #rate {
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  #rate-value {
+    font-size: 16px;
+  }
+  
