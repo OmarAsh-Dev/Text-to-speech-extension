@@ -6,17 +6,17 @@
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
-      "16": "images/play.png",
-      "48": "images/play.png",
-      "128": "images/play.png"
+      "16": "images/text-to-speech.png",
+      "48": "images/text-to-speech.png",
+      "128": "images/text-to-speech.png"
     },
     "default_popup_width": 400,
     "default_popup_height": 500
   },
   "icons": {
-    "16": "images/play.png",
-    "48": "images/play.png",
-    "128": "images/play.png"
+    "16": "images/text-to-speech.png",
+    "48": "images/text-to-speech.png",
+    "128": "images/text-to-speech.png"
   },
   "permissions": []
 }
